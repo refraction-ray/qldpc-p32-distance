@@ -1,0 +1,53 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging and build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Editors and OS files
+.DS_Store
+.idea/
+.vscode/
+
+# Environment and secrets
+.env
+.env.*
+*.pem
+*.key
+*.token
+
+# Runtime logs and experiment caches
+logs/
+wandb/
+mlruns/
+*.log
+
+# Cache policy: release data may be tracked; generated caches should not be
+data/cache/
+outputs/cache/
+results/cache/
+cache/
+*.cache
+
+# Downloaded inputs and new run records
+/data/upstream/
+/data/runs/
